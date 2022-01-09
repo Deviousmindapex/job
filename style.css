@@ -1,0 +1,293 @@
+.base {
+  position: absolute;
+  width: 680px;
+  /* width: 1000px; */
+  height: 1080px;
+  left: 0px;
+  top: 0px;
+
+  background: linear-gradient(180deg, #ffffff 0%, #f2f5fa 100%);
+}
+/* .img-base {
+  position: absolute;
+  width: 1240px;
+  height: 1080px;
+  left: 680px;
+  top: 0px;
+  background: #c4c4c4;
+  background-image: url(image_summer.jpg);
+} */
+.ananas {
+  left: 680px;
+  position: absolute;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+  color: #000000;
+  text-decoration: none;
+}
+.top-bar {
+  position: absolute;
+  width: 480px;
+  height: 40px;
+  left: 100px;
+  top: 100px;
+}
+.top-bar li {
+  list-style-type: none;
+}
+.logo-pineapple {
+  position: absolute;
+  width: 118px;
+  height: 40px;
+}
+.logo {
+  position: absolute;
+  width: 25px;
+  height: 40px;
+}
+.pineapple {
+  position: absolute;
+  width: 78px;
+  height: 16px;
+  left: 40px;
+  top: 20px;
+  color: #131821;
+}
+.about {
+  position: absolute;
+  width: 42px;
+  height: 26px;
+  left: 231px;
+  top: 14px;
+
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #6a707b;
+}
+.work {
+  position: absolute;
+  width: 91px;
+  height: 26px;
+  left: 303px;
+  top: 14px;
+
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #6a707b;
+}
+.contact {
+  position: absolute;
+  width: 56px;
+  height: 26px;
+  left: 424px;
+  top: 14px;
+
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+
+  color: #6a707b;
+}
+.heading {
+  position: absolute;
+  width: 399px;
+  height: 44px;
+  left: 140px;
+  top: 374px;
+
+  font-family: Georgia;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 44px;
+  /* identical to box height, or 137% */
+
+  color: #131821;
+}
+.subheading {
+  position: absolute;
+  width: 400px;
+  height: 56px;
+  left: 140px;
+  top: 433px;
+
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  /* or 175% */
+
+  color: #6a707b;
+}
+
+.input {
+  position: absolute;
+  width: 580px;
+  height: 70px;
+  left: 100px;
+  top: 539px;
+  background: #ffffff;
+  border: 1px solid #e3e3e4;
+  box-sizing: border-box;
+  border-right: none;
+}
+.errorField {
+  position: absolute;
+  left: 140px;
+  top: 510px;
+
+  color: red;
+  font: bold;
+  font-size: 20px;
+}
+::placeholder {
+  padding-left: 44px;
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  color: #6a707b;
+}
+.submitbtn {
+  position: absolute;
+  cursor: pointer;
+  left: 680px;
+  top: 539px;
+  height: 70px;
+  width: 83px;
+  border: none;
+  background: #ffffff;
+  border: 1px solid #e3e3e4;
+  border-left: none;
+
+  /* box-sizing: border-box; */
+  /* background-color: black; */
+}
+.submitbtn:disabled {
+  position: absolute;
+  cursor: pointer;
+  left: 680px;
+  top: 539px;
+  height: 70px;
+  width: 83px;
+  border: none;
+  background: #f50808;
+  border: 1px solid #e3e3e4;
+  border-left: none;
+}
+/* .submitbtn img {
+  width: 24px;
+  height: 14px;
+} */
+
+.input-line {
+  position: absolute;
+  width: 4px;
+  height: 70px;
+  left: 100px;
+  top: 539px;
+
+  background: #4066a5;
+}
+.checkbox {
+  position: absolute;
+  width: 26px;
+  height: 26px;
+  left: 140px;
+  top: 663px;
+}
+.agree {
+  position: absolute;
+  width: 359px;
+  height: 28px;
+  left: 181px;
+  top: 662px;
+
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  /* identical to box height, or 175% */
+
+  color: #6a707b;
+}
+.line {
+  position: absolute;
+  width: 400px;
+  height: 1px;
+  left: 140px;
+  top: 740px;
+
+  background: #e3e3e4;
+}
+.social {
+  position: absolute;
+  width: 244px;
+  height: 46px;
+  left: 218px;
+  top: 791px;
+}
+.facebook {
+  position: absolute;
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  border: 2px solid #e3e3e4;
+  box-sizing: border-box;
+}
+.instagram {
+  position: absolute;
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  left: 66px;
+
+  border: 2px solid #e3e3e4;
+  box-sizing: border-box;
+}
+.twitter {
+  position: absolute;
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  left: 132px;
+
+  border: 2px solid #e3e3e4;
+  box-sizing: border-box;
+}
+.youtube {
+  position: absolute;
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  left: 198px;
+  border: 2px solid #e2e3e4;
+  box-sizing: border-box;
+}
+.social .facebook img {
+  position: absolute;
+  left: 12.34%;
+  right: 87.24%;
+  top: 74.63%;
+  bottom: 23.89%;
+
+  background: #131821;
+  opacity: 0.3;
+}

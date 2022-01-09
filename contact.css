@@ -1,0 +1,16 @@
+.selectall {
+  position: absolute;
+}
+
+.deselectall {
+  position: absolute;
+  left: 5%;
+}
+.submit {
+  position: absolute;
+  left: 10%;
+}
+.export {
+  position: absolute;
+  left: 13%;
+}
